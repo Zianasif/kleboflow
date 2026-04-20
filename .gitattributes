@@ -1,0 +1,16 @@
+# Enforce LF line endings for all text files
+* text=auto
+
+# Nextflow files — always LF
+*.nf   text eol=lf
+*.config text eol=lf
+
+# Shell scripts — always LF (required for Linux execution)
+*.sh   text eol=lf
+
+# R scripts — always LF
+*.R    text eol=lf
+
+# Markdown and text
+*.md   text eol=lf
+*.txt  text eol=lf

@@ -1,0 +1,58 @@
+# Nextflow
+.nextflow/
+.nextflow.log*
+work/
+
+# Results and outputs
+results/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Conda/Python environments
+venv/
+ENV/
+env/
+
+# Logs
+*.log
+*.log.[0-9]*
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+
+# FASTA input data (large files, not tracked)
+Fasta files/
+
+# Claude Code session memory
+.claude/
+
+# Nextflow reports (generated at runtime)
+pipeline_report_*.html
+timeline_*.html
+pipeline_dag_*.html
